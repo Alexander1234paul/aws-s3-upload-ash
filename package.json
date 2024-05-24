@@ -1,6 +1,6 @@
 {
     "name": "aws-s3-upload-ash",
-    "version": "1.1.7",
+    "version": "1.2.0",
     "description": "Open Source Module to Upload your Media and files into AWS S3 Bucket directly from Front-end",
     "main": "dist/aws-s3-upload-ash.js",
     "types": "dist/aws-s3-upload-ash.d.ts",
@@ -10,11 +10,11 @@
         "build": "tsc --declaration"
     },
     "dependencies": {
-        "crypto-js": "^3.3.0"
+        "crypto-js": "^4.2.0"
     },
     "devDependencies": {
         "@types/node": "^12.12.14",
-        "@types/crypto-js": "^3.1.47",
+        "@types/crypto-js": "^4.2.2",
         "typescript": "^3.9.7"
     },
     "author": "Ismael Ash",
