@@ -1,6 +1,7 @@
 import {IConfig, DateYMD} from "./types"
-import Crypto, { WordArray } from "crypto-js";
+import Crypto from "crypto-js";
 
+type WordArray = Crypto.lib.WordArray;
 export default class Signature {
     public static getSignature(config: IConfig, date: DateYMD, policyBase64: string): string {
         const getSignatureKey = (key: string, dateStamp: DateYMD, regionName: string): WordArray => {
