@@ -5,7 +5,7 @@ AWSS3UploadAsh - A Javascript Library for AWS S3 File Upload
 
 # NPM
 https://www.npmjs.com/package/aws-s3-upload-ash
-
+s
 # Donate
 **http://bit.ly/doeismaelnascimento**
 
